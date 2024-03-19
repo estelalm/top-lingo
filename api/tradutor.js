@@ -1,6 +1,6 @@
 
 
-let key = '89f9f593ce824acdbcf6271b2a7a8a52'
+let key = ''
 
 export async function translate (from, to, text) {
 let endpoint = `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=${from}&to=${to}`
